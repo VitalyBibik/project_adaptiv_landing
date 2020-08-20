@@ -5,4 +5,4 @@
 HTML5, CSS3, BEM.
 
 ## Ссылка на github pages:
-https://VitalyBibik.github.io/project_adaptiv_landing/
+https://VitalyBibik.github.io/project_adaptiv_landing
