@@ -1,0 +1,32 @@
+@import url('./__photo/card-comments__photo.css');
+@import url('./__text/card-comments__text.css');
+@import url('./__author/card-comments__author.css');
+@import url('./__container/card-comments__container.css');
+
+
+.card-comments{
+    max-width: 1184px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 102px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:425px){
+    .card-comments{
+        flex-direction: column;
+      
+    }
+}
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .card-comments{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-comments{
+        max-width: 928px;
+    }
+}

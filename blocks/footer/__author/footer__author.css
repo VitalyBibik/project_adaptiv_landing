@@ -1,0 +1,30 @@
+.footer__author{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+max-width: 282px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-self: center;
+margin-bottom: 0;
+}
+
+@media screen and (max-width:425px){
+    .footer__author{
+       align-self: flex-start;
+       margin-left: 16px;
+       margin-top: 48px;
+    }
+}
+
+
+@media screen and (min-width : 426px) and (max-width : 590px){
+    .footer__author{
+        align-self: flex-start;
+        margin-left: 16px;
+        margin-top: 48px;
+     }
+}

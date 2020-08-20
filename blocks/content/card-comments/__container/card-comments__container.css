@@ -1,0 +1,15 @@
+.card-comments__container{
+    max-width: 382px;
+}
+
+@media screen and (max-width:425px){
+    .card-comments__container{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .card-comments__container{
+        text-align: center;
+    }
+}

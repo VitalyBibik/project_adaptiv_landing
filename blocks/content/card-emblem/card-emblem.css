@@ -1,0 +1,6 @@
+@import url('./__name/card-emblem__name.css');
+@import url('./__photo/card-emblem__photo.css');
+@import url('./__container/card-emblem__container.css');
+.card-emblem{
+max-width:208px;
+}

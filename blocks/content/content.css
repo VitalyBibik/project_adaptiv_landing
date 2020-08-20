@@ -1,0 +1,21 @@
+@import url('./lead/lead.css');
+@import url('./intro/intro.css');
+@import url('./collumn-block/collumn-block.css');
+@import url('./text-bold/text-bold.css');
+@import url('./photo-grid/photo-grid.css');
+@import url('./places/places.css');
+@import url('./card/card.css');
+@import url('./video/video.css');
+@import url('./additional/additional.css');
+@import url('./card-additional/card-additional.css');
+@import url('./comments/comments.css');
+@import url('./card-comments/card-comments.css');
+@import url('./cover/cover.css');
+@import url('./emblem/emblem.css');
+@import url('./card-emblem/card-emblem.css');
+@import url('./barent/barent.css');
+@import url('../footer/link/link.css');
+@import url('../header/link-hover/link-hover.css');
+@import url('./link-video/link-video.css');
+
+

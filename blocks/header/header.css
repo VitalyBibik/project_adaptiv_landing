@@ -1,0 +1,33 @@
+@import url('../header/__lang/header__lang.css');
+@import url('../header/__logo/header__logo.css');
+@import url('../header/__link/header__link.css');
+@import url('./link-hover/link-hover.css');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: auto;
+    margin-bottom: 48px;
+    margin-top: 30px;
+    }
+
+@media screen and (max-width:425px){
+    .header{
+        max-width: 343px;
+        margin-top: 16px;
+    }
+}
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .header{
+        max-width: 720px;
+        
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+    .header{
+         max-width:928px;
+        margin-bottom: 60px;
+        margin-top: 16px;
+    }
+}

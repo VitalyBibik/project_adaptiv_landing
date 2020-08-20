@@ -1,0 +1,4 @@
+.link-hover:hover{
+  opacity: .7;
+ transition-delay: .3s linear;
+    }

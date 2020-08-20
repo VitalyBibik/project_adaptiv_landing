@@ -1,0 +1,15 @@
+.card-emblem__name{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 26px;
+color: #CCCCCC;
+max-width: 208px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+

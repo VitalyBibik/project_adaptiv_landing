@@ -1,0 +1,35 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/content/content-title/content-title.css');
+@import url('../blocks/content/content-subtitle/content-subtitle.css');
+@import url('../blocks/content/body-style/body-style.css');
+
+
+
+    .page{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+@media screen and (max-width:425px){
+    .page{
+        max-width: 375px;
+       
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .page{
+         max-width:720px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .page{
+        max-width:928px;
+   }
+}
+
+   

@@ -1,0 +1,75 @@
+.card-comments__author{
+ font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+@media screen and (max-width:425px){
+    .card-comments__container:nth-child(1) .card-comments__author:after{
+        content:"«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .card-comments__container:nth-child(2) .card-comments__author:after{
+        content:"«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .card-comments__container:nth-child(3) .card-comments__author:after{
+        content:"«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+}
+
+@media  screen and (min-width : 425px) and (max-width : 768px){
+    .card-comments__container:nth-child(1) .card-comments__author:after{
+        content:"«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .card-comments__container:nth-child(2) .card-comments__author:after{
+        content:"«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .card-comments__container:nth-child(3) .card-comments__author:after{
+        content:"«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»";
+       font-size:14px;
+       display: block;
+       margin-bottom: 47px;
+       margin-top: 24px;
+       font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+}

@@ -1,0 +1,13 @@
+@import url('./__title/card-additional__title.css');
+@import url('./__text/card-additional__text.css');
+@import url('./__photo/card-additional__photo.css');
+
+.card-additional{
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-column-gap: 16px;
+    max-width:284px;
+    
+    border-radius: 5px;
+    position: relative;
+}

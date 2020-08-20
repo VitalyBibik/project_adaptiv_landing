@@ -1,0 +1,53 @@
+@import url('./link/link.css');
+@import url('./__column/footer__column.css');
+@import url('./clear-ul/clear-ul.css');
+@import url('./__cover/footer__cover.css');
+@import url('./__author/footer__author.css');
+@import url('./footer__row/footer__row.css');
+@import url('./__row-links/footer__row-links.css');
+
+
+.footer{
+    margin: auto;
+    background-color:#2A2C2F;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+max-width: 1184px;
+padding-bottom: 48px;
+
+}
+
+@media screen and (max-width:425px){
+    .footer{
+      flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width : 426px) and (max-width : 590px) {
+  .footer{
+    flex-direction: column;
+  }
+} 
+
+@media screen and (min-width : 591px) and (max-width : 768px) {
+  .footer{
+    padding-bottom: 24px;
+    max-width: 722px;
+  }
+} 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer{
+    max-width:928px;
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .footer{
+    max-width: 1184px;
+  }
+}
+
+

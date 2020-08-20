@@ -1,0 +1,27 @@
+.video__super-author{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+color: #FFFFFF;
+position: absolute;
+left:30px;
+top:250px;
+min-width: 175px;
+z-index: 2;
+}
+
+@media screen and (max-width:425px){
+    .video__super-author{
+       top:142px;
+       
+    }
+}
+
+
+@media screen  and (min-width : 425px) and (max-width : 768px){
+    .video__super-author{
+         top:152px;
+    }
+}
+
